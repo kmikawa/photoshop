@@ -35,12 +35,11 @@ Use Photoshop, Lightroom, and Sensei together to create web or server-based work
 
 - [Learn more](../apis/creativecloud/photo-imaging-api.html)
 
-
 <TextBlock slots="heading, text, buttons" width="25%" theme="dark" isCentered />
 
 ### CEP and ExtendScript
 
-Build classic extensions and scripts with CEP and ExtendScript.
+Build classic extensions with CEP using HTML, CSS, and JS. Automate in-app workflows with ExtendScript, based on ECMAScript 3.
 
 - [Visit the repo](https://github.com/Adobe-CEP/CEP-Resources/blob/master/CEP_10.x/Documentation/CEP%2010.0%20HTML%20Extension%20Cookbook.md)
 
@@ -48,40 +47,36 @@ Build classic extensions and scripts with CEP and ExtendScript.
 
 ### C++ SDK
 
-Build powerful, low-level integrations using the C++ SDK.
+Build powerful, low-level integrations using the C++ SDK. Create filters, provide support for additional image formats, create new selectors, and more.
 
 - [Download the SDK](https://console.adobe.io/downloads)
 
-
 <TitleBlock slots="heading, text" theme="light" />
 
-### Check out our new UXP Plugins
+### A new generation of plugins with UXP
 
-Check out the newest generation of plugins build using the UXP API.
+UXP—Adobe's quick, modern HTML, CSS, and JavaScript engine—is [now available in Photoshop](uxp). See what developers are already doing with this new API.
 
 <TextBlock slots="image, heading, text, links" width="33%" theme="light" isCentered />
 
-![PixelSquid Icon](images/PixelSquid_Icon_Flat.svg)
+![PixelSquid logo](images/PixelSquid_Icon_Flat.svg)
 
 ### Pixel Squid
 
 Use PixelSquid to easily add 3D objects to your design and spin to select your perfect angle in Photoshop.
 
-* [Check it out](https://www.pixelsquid.com/plugin_demo)
-
-
+- [Check it out](https://www.pixelsquid.com/plugin_demo)
 
 <TextBlock slots="image, heading, text, links" width="33%" theme="light" isCentered />
 
-![Arranger Icon](images/Arranger_Logo-square.svg)
+![Arranger logo](images/Arranger_Logo-square.svg)
 
 ### Arranger
 
 Arrange art objects as a circle, grid, wave, or honeycomb in XD, InDesign, Illustrator, and now in Photohsop.
 
-* [Download it](https://omata.io/arranger)
-* [Read more](https://medium.com/adobetech/a-case-study-on-arranger-making-the-leap-from-cep-to-uxp-c64227b6ea74?source=friends_link&sk=8612cd25ce4b8721d489cb632e0338d5)
-
+- [Download it](https://omata.io/arranger)
+- [Read more](https://medium.com/adobetech/a-case-study-on-arranger-making-the-leap-from-cep-to-uxp-c64227b6ea74?source=friends_link&sk=8612cd25ce4b8721d489cb632e0338d5)
 
 <TextBlock slots="image, heading, text, links" width="33%" theme="light" isCentered />
 
@@ -89,22 +84,26 @@ Arrange art objects as a circle, grid, wave, or honeycomb in XD, InDesign, Illus
 
 ### Trello
 
-Easily send assets to your Trello board, withut ever leaving Photoshop.
+Easily send assets to your Trello board, without ever leaving Photoshop.
 
-* [Learn more](https://trello.com/integrations)
+- [Learn more](https://trello.com/integrations)
 
+<AnnouncementBlock slots="heading, button" theme="light" />
+
+Create your own UXP Plugin for Photoshop today
+
+[Visit the UXP Plugin API docs](uxp)
 
 <TextBlock slots="video, heading, text, buttons" width="50%" theme="dark" />
 
 [Banner Ad Reflow](https://www.youtube.com/watch?v=vOvyOM6ka98&feature=youtu.be&ab_channel=AdobePhotoshop)
 
-### Photoshop Service API Demo
+### Photoshop API Demo
 
 Our Banner Ad Reflow Extension allows you to create multiple banner ads from one design.
 
-* [See a demo](../apis/creativecloud/photo-imaging-api/api-demo.html?ref=bannerreflow)
-* [Sign up to learn more](https://photoshop.adobelanding.com/api-signup/)
-
+- [See a demo](../apis/creativecloud/photo-imaging-api/api-demo.html?ref=bannerreflow)
+- [Sign up to learn more](https://photoshop.adobelanding.com/api-signup/)
 
 <SummaryBlock slots="image, heading, text, buttons" background="rgb(9, 90, 186)" />
 
