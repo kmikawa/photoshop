@@ -1,113 +1,114 @@
 ---
-title: Creative Cloud Developer Platform
-description: Build plugins for Photoshop, InDesign, After Effects, Adobe XD and more. Integrate service APIs like Creative Cloud Libraries, Adobe Fonts and Adobe Stock.
+title: Photoshop APIs for developers and scripters
+description: Extend and integrate with Photoshop like never before
 ---
-
-import CCProductCards from 'dev-site-product-index/src/transclusions/creative-cloud.md'
 
 <Hero slots="image, heading, icon, text" variant="halfwidth" />
 
 ![Creative Cloud banner](images/cc-hero.png)
 
-# Develop with Adobe Creative Cloud
+# Photoshop is extensible like never before
 
-![Creative Cloud banner](images/cc-icon.png)
+![Photoshop icon](images/icons/ps-icon.png)
 
-Adobe Creative Cloud APIs and SDKs enable developers to impact creative work for millions of users worldwide. Build and distribute inspiring, productivity-driving plugins and integrations—all with Adobe Creative Cloud.
+The creative world runs on Photoshop—and with Photoshop APIs and SDKs, developers can take it even further. Build plugins and integrations that harness the power of the world’s best image editing and graphic design software to transform creative workflows for users everywhere.
 
-<AnnouncementBlock slots="heading, text, button" />
+<TitleBlock slots="heading, text" theme="dark" />
 
-### Join the Creative Cloud Developer Newsletter
+# APIs for any use case
 
-Be the first to hear about API launches, technology updates, marketplace news, developer events, and more by joining the Creative Cloud Developer Newsletter.
+Whether you want to build in-app plugins or compute-intense low-level tools; or if you want to integrate the power of Photoshop into your own app or service, there's something here for everyone.
 
-[Sign up today](http://adobe.ly/devnews)
+<TextBlock slots="heading, text, buttons" width="25%" theme="dark" isCentered />
 
-<TextBlock slots="image, heading, text1, links" />
+### UXP Plugin API
 
-![Blurb for Photoshop, Arranger for Adobe XD](images/cc-extend-3.png)
+Build performant plugins with modern HTML, CSS, and JavaScript. UXP is the next generation of plugin APIs, for Photoshop 22 and beyond.
 
-## Extend Adobe Creative Cloud apps
+- [View the docs](../photoshop/uxp/)
 
-Creative Cloud desktop apps offer APIs and SDKs that let you build connected workflows and enhance creative output. Write plugins and scripts that are easy to discover, install, and update. Give teams and individuals the power to tailor industry-leading creative apps to their unique creative needs and collaborative processes. [Browse the full list.](#api-list)
+<TextBlock slots="heading, text, buttons" width="25%" theme="dark" isCentered />
 
-- ![Photoshop](images/icons/ps-icon.png) [Photoshop](photoshop)
-- ![Adobe XD](images/icons/xd-icon.png) [Adobe XD](xd)
-- ![InDesign](images/icons/id-icon.png) [InDesign](https://www.adobe.io/apis/creativecloud/indesign.html)
+### Photoshop API
 
-<TextBlock slots="heading, text1, links, image" />
+Use Photoshop, Lightroom, and Sensei together to create web or server-based workflows to cut out images, reflow banner ads, and more.
 
-## Integrate Creative Cloud services into your apps
+- [Learn more](https://www.adobe.io/apis/creativecloud/photo-imaging-api.html)
 
-With Creative Cloud service APIs, developers can create integrations that enable users to access their content and tools everywhere they work. Bring powerful collaborative features and rich creative assets from Adobe right into your own apps and services by integrating with Creative Cloud. [Browse the full list.](#api-list)
 
-- [Creative Cloud Libraries](libraries)
-- [Adobe Stock](https://www.adobe.io/apis/creativecloud/stock.html)
-- [Adobe Fonts](fonts)
+<TextBlock slots="heading, text, buttons" width="25%" theme="dark" isCentered />
 
-![Camera IQ integrates the CC Libraries API](images/cc-integrate.png)
+### CEP and ExtendScript
 
-<TextBlock slots="image, heading, text1, links" />
+Build classic extensions and scripts with CEP and ExtendScript.
 
-![Creative Cloud Desktop Marketplace](images/cc-desktop-marketplace-1.png)
+- [Visit the repo](https://github.com/Adobe-CEP/CEP-Resources/blob/master/CEP_10.x/Documentation/CEP%2010.0%20HTML%20Extension%20Cookbook.md)
 
-## Distribute to millions of creative users worldwide
+<TextBlock slots="heading, text, buttons" width="25%" theme="dark" isCentered />
 
-Publish plugins and integrations for teams and individuals to discover and install on the Creative Cloud Plugin Marketplace and the Enterprise Admin Console. Get your work in front of creatives everywhere by distributing with Creative Cloud.
+### C++ SDK
 
-- [Creative Cloud Plugin Marketplace](https://exchange.adobe.com/creativecloud.html?route=discoverIntegrations&workflow=share)
+Build powerful, low-level integrations using the C++ SDK.
+
+- [Download the SDK](https://console.adobe.io/downloads)
+
 
 <TitleBlock slots="heading, text" theme="light" />
 
-# The Adobe Fund for Design
+### Check out our new UXP Plugins
 
-Since 2018, the Adobe Fund for Design has provided equity investments and grants to people and companies who want to push boundaries and help shape the future of design and creativity. Fund recipients also receive expert advice, early access to products and technology, go-to-market support, and more.
+Check out the newest generation of plugins build using the UXP API.
 
-<ResourceCard slots="link, image, heading, text" width="50%" variant="vertical" />
+<TextBlock slots="image, heading, text, links" width="33%" theme="light" isCentered />
 
-[Adobe Fund for Design](https://www.adobe.com/products/xd/adobe-fund.html)
+![PixelSquid Icon](images/PixelSquid_Icon_Flat.svg)
 
-![Adobe Fund for Design 1](images/adobe-fund-for-design-1.jpeg)
+### Pixel Squid
 
-### Adobe Fund for Design: Investing in developers with creativity in their code
+Use PixelSquid to easily add 3D objects to your design and spin to select your perfect angle in Photoshop.
 
-Apply for equity investments and grants from Adobe for your project.
+* [Check it out](https://www.pixelsquid.com/plugin_demo)
 
-<ResourceCard slots="link, image, heading, text" width="50%" />
 
-[Supporting Creative Cloud Developers with the Adobe Fund for Design](https://blog.adobe.com/en/publish/2020/06/15/adobe-fund-for-design-creative-cloud-developers.html#gs.iaz41v)
 
-![Adobe Fund for Design 2](images/adobe-fund-for-design-2.jpeg)
+<TextBlock slots="image, heading, text, links" width="33%" theme="light" isCentered />
 
-### Supporting Creative Cloud Developers with the Adobe Fund for Design
+![Arranger Icon](images/Arranger_Logo-square.svg)
 
-Commissioned projects, and our commitment to developers from underrepresented communities.
+### Arranger
 
-<ResourceCard slots="link, image, heading, text" width="50%" />
+Arrange art objects as a circle, grid, wave, or honeycomb in XD, InDesign, Illustrator, and now in Photohsop.
 
-[One Year of the Adobe Fund for Design: Supporting, Uplifting and Empowering Innovators in the Creative Community](https://blog.adobe.com/en/publish/2019/09/10/fund-for-design-new-design-tools.html#gs.iaz41y)
+* [Download it](https://omata.io/arranger)
+* [Read more](https://medium.com/adobetech/a-case-study-on-arranger-making-the-leap-from-cep-to-uxp-c64227b6ea74?source=friends_link&sk=8612cd25ce4b8721d489cb632e0338d5)
 
-![Adobe Fund for Design 3](images/adobe-fund-for-design-3.jpeg)
 
-### One Year of the Adobe Fund for Design
+<TextBlock slots="image, heading, text, links" width="33%" theme="light" isCentered />
 
-Supporting, Uplifting and Empowering Innovators in the Creative Community
+![Trello logo](images/trello-mark-blue.svg)
 
-<!-- Product cards -->
-<div id="api-list"></div>
-<TitleBlock slots="heading, text" theme="light" />
+### Trello
 
-# Extensible Creative Cloud products and services
+Easily send assets to your Trello board, withut ever leaving Photoshop.
 
-Many creative cloud apps and services are extensible through in-app APIs and SDKs, or service APIs and events. Choose your favorite to learn more.
+* [Learn more](https://trello.com/integrations)
 
-<CCProductCards />
 
-<!-- Summary block -->
+<TextBlock slots="video, heading, text, buttons" width="50%" theme="dark" />
+
+[Banner Ad Reflow](https://www.youtube.com/watch?v=vOvyOM6ka98&feature=youtu.be&ab_channel=AdobePhotoshop)
+
+### Photoshop Service API Demo
+
+Our Banner Ad Reflow Extension allows you to create multiple banner ads from one design.
+
+* [See a demo](https://www.adobe.io/apis/creativecloud/photo-imaging-api/api-demo.html?ref=bannerreflow)
+* [Sign up to learn more](https://photoshop.adobelanding.com/api-signup/)
+
 
 <SummaryBlock slots="image, heading, text, buttons" background="rgb(246, 16, 27)" />
 
-![Creative Cloud banner](images/cc-banner.png)
+![CC banner](images/cc-banner.png)
 
 ## Get the latest news for Creative Cloud Developers
 
