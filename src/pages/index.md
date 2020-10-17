@@ -57,6 +57,22 @@ Build powerful, low-level integrations using the C++ SDK. Create filters, provid
 
 UXP—Adobe's quick, modern HTML, CSS, and JavaScript engine—is [now available in Photoshop](uxp). See what developers are already doing with this new API.
 
+<TextBlock slots="heading, text, buttons" width="50%" theme="light" isCentered />
+
+### Create your own UXP Plugin
+
+Learn from quick starts, tutorials, sample code, and more. Everything you need to build a UXP plugin is here.
+
+- [Visit the UXP Plugin API docs](uxp)
+
+<TextBlock slots="heading, text, buttons" width="50%" theme="light" isCentered />
+
+### Connect with our community
+
+Ask questions, offer help, and inspire each other with what you create.
+
+- [Join the Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com)
+
 <TextBlock slots="image, heading, text, links" width="33%" theme="light" isCentered />
 
 ![PixelSquid logo](images/PixelSquid_Icon_Flat.svg)
@@ -87,12 +103,6 @@ Arrange art objects as a circle, grid, wave, or honeycomb in XD, InDesign, Illus
 Easily send assets to your Trello board, without ever leaving Photoshop.
 
 - [Learn more](https://trello.com/integrations)
-
-<AnnouncementBlock slots="heading, button" theme="light" />
-
-Create your own UXP Plugin for Photoshop today
-
-[Visit the UXP Plugin API docs](uxp)
 
 <TextBlock slots="video, heading, text, buttons" width="50%" theme="dark" />
 
